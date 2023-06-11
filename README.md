@@ -20,7 +20,7 @@
 
 ## 3. Success Metrics
 
-The success of the project will be measured based on the following metrics:
+**The success of the project will be measured based on the following metrics:**
 
 - Accuracy, precision, recall, and F1 score of the machine learning models.
 - User satisfaction and ease of use of the web application.
@@ -30,7 +30,7 @@ The success of the project will be measured based on the following metrics:
 
 ### a. Functional Requirements
 
-The web application should provide the following functionality:
+**The web application should provide the following functionality:**
 
 - Users can input their health parameters, such as age, gender, hypertension, heart disease, smoking status, etc., to assess their risk of stroke.
 - Users can view and interpret the predictions of the machine learning models, including the probability of stroke occurrence.
@@ -38,7 +38,7 @@ The web application should provide the following functionality:
 
 ### b. Non-functional Requirements
 
-The web application should meet the following non-functional requirements:
+**The web application should meet the following non-functional requirements:**
 
 - The machine learning models should demonstrate high accuracy and performance in stroke prediction.
 - The web application should have an intuitive and user-friendly interface.
@@ -52,7 +52,7 @@ The web application should meet the following non-functional requirements:
 
 ### Out-of-scope
 
-The following tasks are considered out of scope for this project:
+**The following tasks are considered out of scope for this project:**
 
 - Integration with electronic health records or real-time health monitoring devices.
 - Providing personalized medical advice or treatment recommendations.
@@ -65,11 +65,11 @@ The problem is to develop a machine learning model that predicts the risk of str
 
 ### b. Data
 
-The dataset consists of anonymized health records of individuals, including features such as age, gender, hypertension, heart disease, smoking status, and BMI. The target variable is a binary label indicating whether the individual had a stroke or not.
+The dataset consists of anonymized health records of individuals, including features such as **age, gender, hypertension, heart disease, smoking status, and BMI.** The target variable is a binary label indicating whether the individual had a stroke or not.
 
 ### c. Techniques
 
-The project will utilize binary classification models to predict the risk of stroke. The following machine learning techniques will be employed:
+**The project will utilize binary classification models to predict the risk of stroke. The following machine learning techniques will be employed:**
 
 - Data preprocessing and cleaning.
 - Feature engineering and selection.
@@ -79,7 +79,7 @@ The project will utilize binary classification models to predict the risk of str
 
 ## 7. Architecture
 
-The web application architecture consists of the following components:
+**The web application architecture consists of the following components:**
 
 - Frontend web application built using Streamlit.
 - Backend server built using Streamlit.
@@ -93,18 +93,18 @@ The frontend and backend components are both developed using Streamlit, enabling
 
 ![Project Pipeline](pipeline.png)
 
-The project pipeline encompasses the following steps:
+**The project pipeline encompasses the following steps:**
 
-- Data collection: The dataset, comprising anonymized health records, is used as input for model training and evaluation.
-- Data preprocessing: The collected data undergoes cleaning, transformation, and feature engineering to prepare it for model training.
-- Model training: The preprocessed data is used
+- **Data collection:** The dataset, comprising anonymized health records, is used as input for model training and evaluation.
+- **Data preprocessing:** The collected data undergoes cleaning, transformation, and feature engineering to prepare it for model training.
+- **Model training:** The preprocessed data is used
 
  to train the machine learning model, optimizing it for stroke prediction.
-- Model evaluation: The trained model is evaluated using appropriate metrics to assess its performance and accuracy.
-- Docker containerization: The model and necessary application components are encapsulated within Docker containers for streamlined deployment.
-- Deployment: The Docker containers, along with the frontend and backend components, are deployed on Digital Ocean droplets, making the application accessible to users.
-- Web application usage: Users interact with the web application by inputting their health parameters and obtaining predictions regarding their stroke risk.
-- Results and recommendations: The web application presents the predictions and offers educational resources and recommendations for stroke prevention.
+- **Model evaluation:** The trained model is evaluated using appropriate metrics to assess its performance and accuracy.
+- **Docker containerization:** The model and necessary application components are encapsulated within Docker containers for streamlined deployment.
+- **Deployment:** The Docker containers, along with the frontend and backend components, are deployed on Digital Ocean droplets, making the application accessible to users.
+- **Web application usage:** Users interact with the web application by inputting their health parameters and obtaining predictions regarding their stroke risk.
+- **Results and recommendations:** The web application presents the predictions and offers educational resources and recommendations for stroke prevention.
 
 ## 9. Conclusion
 
