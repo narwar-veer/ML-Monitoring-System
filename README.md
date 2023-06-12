@@ -6,6 +6,8 @@
 - Enhances diagnostic accuracy and optimizes time and cost efficiency.
 - Enables personalized care, leading to improved patient outcomes in stroke management.
 
+!.[Prediction Screenshot](assests/Prediction.png)
+
 ## 2. Motivation
 
 - **Early Stroke Detection:** The model's accurate predictions aid in the early detection of strokes, enabling prompt medical intervention and potentially reducing the risk of long-term complications or disability.
