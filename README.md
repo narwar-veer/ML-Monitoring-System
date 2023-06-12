@@ -6,7 +6,8 @@
 - Enhances diagnostic accuracy and optimizes time and cost efficiency.
 - Enables personalized care, leading to improved patient outcomes in stroke management.
 
-!.[Prediction Screenshot](assests/Prediction.png)
+[Prediction_Page-Screenshot](assests/Prediction.png)
+[Monitoring_Page-Screenshot](assests/Monitoring.png)
 
 ## 2. Motivation
 
