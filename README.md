@@ -111,4 +111,6 @@ The frontend and backend components are both developed using Streamlit, enabling
 
 ## 9. Conclusion
 
+**To run on local system** -- *streamlit run main.py*.
+
 The Stroke Prediction Web Application provides users with a convenient platform to assess their risk of stroke based on health parameters. By leveraging machine learning models and providing personalized insights, the application promotes stroke prevention and raises awareness about the risk factors associated with strokes.
