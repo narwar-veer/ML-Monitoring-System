@@ -25,13 +25,13 @@ jobs:
         with:
           context: .
           push: true
-          tags: gcr.io/$GOOGLE_CLOUD_PROJECT/your-app:${{ github.sha }}
+          tags: tags:gcr.io/ml-model-392806/your-app:latest
 
       - name: Deploy to Cloud Run
         uses: google-github-actions/deploy-cloudrun@main
         with:
           service_account_key: ${{ secrets.GCP_SA_KEY }}
           image: gcr.io/$GOOGLE_CLOUD_PROJECT/your-app:${{ github.sha }}
-          region: YOUR_REGION
+          region: us-central1
           service_name: your-app
           platform: managed
