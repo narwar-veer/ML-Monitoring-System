@@ -28,4 +28,4 @@ jobs:
         with:
           context: ./
           push: true
-          tags: gcr.io/${{ secrets.GOOGLE_CLOUD_PROJECT_ID }}/ml-model:latest
+          tags: gcr.io/${{ strokeprediction-393312 }}/ml-model:latest
