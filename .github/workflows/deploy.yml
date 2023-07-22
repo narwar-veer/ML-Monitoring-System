@@ -29,3 +29,12 @@ jobs:
           context: ./
           push: true
           tags: gcr.io/${{ secrets.GOOGLE_CLOUD_PROJECT_ID }}/ml-model:latest
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: google-actions/gcloud-run@v1
+        with:
+          args: deploy ml-model --image gcr.io/${{ secrets.GOOGLE_CLOUD_PROJECT_ID }}/ml-model:latest
